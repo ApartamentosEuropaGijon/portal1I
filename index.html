@@ -4,28 +4,8 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
 	
-    <title>Portal Plaza Europa</title>
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(document).ready(function(){
-           $('#reset').click(function(){
-              console.log('click')
-	      fetch('https://apartamentos.lacorolla.com.es/logshelly/?pin=PisoPrimero', { mode: 'no-cors'})
-	      $.post("https://shelly-63-eu.shelly.cloud/device/relay/control",
-                        {
-                        channel:"0",
-                        turn:"on",
-                        id:"441793a406e0",
-                        auth_key:"MTdlZDdhdWlk657371AE811D4EF772FDE104C2557FE8F9DE85DE5E00C0E416CB60F1035C14F99176C3AD547C7683"
-                        },
-               function(data, status){
-                   if(status!="success"){
-                       alert("Parece que algo va mal, contacte con la propiedad. Something seems to go wrong. Call the property owner");
-                       }
-                    });  
-               });
-        });
-    </script>
+    <title>Broken</title>
+
     
     <style>
 body {
